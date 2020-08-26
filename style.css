@@ -1,0 +1,57 @@
+@font-face {
+  font-family: Segoe UI;
+  src: url(Segoe\ UI.ttf);
+}
+
+* {
+  box-sizing: border-box;
+}
+body {
+  padding: 0;
+  margin: 0 auto;
+  font-family: Segoe UI;
+}
+main {
+  margin: 0 auto;
+  max-width: 1920px;
+}
+/* Header */
+
+.header {
+  max-width: 1428px;
+  margin: 0 auto;
+}
+
+/* Last chance */
+
+.last_chanse {
+  background-image: url(img/16.svg);
+  padding: 60px 600px 50px;
+}
+.last_chanse_content {
+  max-width: 745px;
+  margin: 0 auto;
+  text-align: center;
+}
+.last_chanse p {
+  font-style: normal;
+  color: #203376;
+  text-transform: uppercase;
+  margin: 0;
+}
+.first-title {
+  font-size: 42px;
+  line-height: 146.48%;
+  font-weight: 900;
+  margin-bottom: 35px;
+}
+.last-title {
+  font-size: 24px;
+  line-height: 165%;
+  max-width: 665px;
+  margin: 0 auto;
+  font-weight: 600;
+}
+.title_color {
+  color: #ff0000;
+}
