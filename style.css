@@ -55,3 +55,44 @@ main {
 .title_color {
   color: #ff0000;
 }
+/* description */
+.description_wrapper p{
+  margin: 0;
+}
+.description_wrapper {
+  width: 1110px;
+  height: 100px;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 146.48%;
+  color: #203376;
+  margin: 0 auto;
+  padding-top: 35px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
