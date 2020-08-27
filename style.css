@@ -61,20 +61,34 @@ main {
 }
 .description_wrapper {
   width: 1110px;
-  height: 100px;
   font-weight: 600;
   font-size: 22px;
   line-height: 146.48%;
   color: #203376;
   margin: 0 auto;
-  padding-top: 35px;
+  padding: 35px 0 35px 0;
 }
 
+/* rectangle22 */
 
-
-
-
-
+.rectangle22_wrapper {
+  display: flex;
+}
+.description_img {
+  max-width: 945px;
+  height: 320px;
+}
+.text_block {
+  width: 540px;
+  height: 235px;
+  padding: 45px 0 0 30px;
+  font-size: 16px;
+  line-height: 146.48%;
+}
+.text_block > p:last-child {
+  color: #ff0000;
+  font-size: 16px;
+}
 
 
 
