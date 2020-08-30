@@ -56,7 +56,7 @@ main {
   color: #ff0000;
 }
 /* description */
-.description_wrapper p{
+.description_wrapper p {
   margin: 0;
 }
 .description_wrapper {
@@ -90,23 +90,43 @@ main {
   font-size: 16px;
 }
 
+/* chanse */
 
+.chance_wrapper {
+  max-width: 1110px;
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 40px;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+h3 {
+  color: #ff0000;
+  font-size: 22px;
+  line-height: 146.48%;
+  text-transform: uppercase;
+}
+.chance_wrapper p,
+span {
+  color: #203376;
+  font-size: 22px;
+  font-weight: 600;
+}
+.button_block {
+  padding-top: 35px;
+  display: flex;
+  justify-content: center;
+}
+.chanse_button {
+  background-color: #ff0000;
+  color: #fff;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 21px;
+  padding: 10px 20px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+.chanse_button:hover {
+  color: gold;
+}
