@@ -130,3 +130,21 @@ span {
 .chanse_button:hover {
   color: gold;
 }
+
+/* confirence */
+.conference {
+  margin-top: 50px;
+}
+.conference_wrapper {
+  display: flex;
+}
+.conference_description_wrapper:first-child {
+  width: 525px;
+  height: 300px;
+}
+.conference_description_wrapper > p:last-child {
+  color: #ff0000;
+}
+.conference_description_wrapper {
+  margin: 40px 30px 40px 420px;
+}
