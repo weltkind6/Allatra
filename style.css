@@ -15,6 +15,9 @@ main {
   margin: 0 auto;
   max-width: 1920px;
 }
+p {
+  margin: 0;
+}
 /* Header */
 
 .header {
@@ -147,4 +150,30 @@ span {
 }
 .conference_description_wrapper {
   margin: 40px 30px 40px 420px;
+}
+
+/* chance block */
+
+.chance_wrapper {
+  padding-bottom: 45px;
+}
+.chance_video {
+  margin: 25px 0 35px 0;
+}
+.chance_wrapper p:first-child {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 146.48%;
+  text-align: center;
+  color: #212529;
+}
+.chance_wrapper p:last-child {
+  font-family: Segoe UI;
+font-style: normal;
+font-weight: 600;
+font-size: 22px;
+line-height: 146.48%;
+text-align: center;
+color: #203376;
 }
