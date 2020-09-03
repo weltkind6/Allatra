@@ -10,6 +10,7 @@ body {
   padding: 0;
   margin: 0 auto;
   font-family: Segoe UI;
+  font-size: 22px;
 }
 main {
   margin: 0 auto;
@@ -59,6 +60,7 @@ p {
   color: #ff0000;
 }
 /* description */
+
 .description_wrapper p {
   margin: 0;
 }
@@ -142,13 +144,17 @@ span {
 
 .conference {
   margin-top: 50px;
+  font-size: 16px;
 }
 .conference_wrapper {
   display: flex;
 }
-.conference_description_wrapper:first-child {
+.conference_description_wrapper {
   width: 525px;
   height: 300px;
+}
+.conf_img {
+  height: 385px;
 }
 .conference_description_wrapper > p:last-child {
   color: #ff0000;
@@ -162,7 +168,6 @@ span {
 }
 .conference_ask {
   font-weight: bold;
-  font-size: 16px;
   color: #212529;
 }
 
@@ -194,6 +199,16 @@ color: #203376;
 
 /* conference future_block */
 
+.future_block {
+  width: 525px;
+  height: 255px;
+  margin: 25px 30px 25px 420px;
+}
+.future_img {
+  width: 540px;
+  height: 305px;
+
+}
 /* event join (shared) */
 
 .event_join {
@@ -208,7 +223,7 @@ color: #203376;
   background-color: #F7F8FB;
   text-align: center;
   margin: 0 auto;
-  padding: 25px 0 35px 0;
+  padding: 25px 0 40px 0;
   font-weight: 600;
   font-size: 22px;
   line-height: 165%;
@@ -216,4 +231,23 @@ color: #203376;
 }
 .soc_element {
   color: #ff0000;
+}
+/* rechtangle_25 */
+
+.rechtangle_25_wrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+  border: 15px solid #F7F8FB;
+  width: 825px;
+  height: 200px;
+  margin: 0 auto;
+  margin-top: 70px;
+}
+.rechtangle_25_img {
+  position: absolute;
+  left: -70px;
+}
+.text_wrapper_25 {
+  padding: 55px 40px 55px 90px;
 }
