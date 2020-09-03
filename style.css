@@ -242,7 +242,6 @@ color: #203376;
   width: 825px;
   height: 200px;
   margin: 0 auto;
-  margin-top: 70px;
 }
 .rechtangle_25_img {
   position: absolute;
@@ -250,4 +249,7 @@ color: #203376;
 }
 .text_wrapper_25 {
   padding: 55px 40px 55px 90px;
+}
+.rechtangle_25_block {
+  padding: 70px 0 30px 0;
 }
