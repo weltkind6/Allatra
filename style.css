@@ -132,7 +132,7 @@ span {
   cursor: pointer;
 }
 .button_block {
-  padding-top: 0;
+  padding: 0 0 50px 0;
 }
 .chanse_button:hover {
   color: gold;
@@ -200,4 +200,20 @@ color: #203376;
   font-weight: 600;
   font-size: 22px;
   line-height: 146.48%;
+}
+
+/* rechtangle_43 */
+
+.info_wrapper {
+  background-color: #F7F8FB;
+  text-align: center;
+  margin: 0 auto;
+  padding: 25px 0 35px 0;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 165%;
+  color: #203376;
+}
+.soc_element {
+  color: #ff0000;
 }
