@@ -135,6 +135,7 @@ span {
 }
 
 /* confirence */
+
 .conference {
   margin-top: 50px;
 }
@@ -147,9 +148,18 @@ span {
 }
 .conference_description_wrapper > p:last-child {
   color: #ff0000;
+  margin-top: 35px;
 }
 .conference_description_wrapper {
   margin: 40px 30px 40px 420px;
+}
+.conference_description {
+  background: #F7F8FB;
+}
+.conference_ask {
+  font-weight: bold;
+  font-size: 16px;
+  color: #212529;
 }
 
 /* chance block */
