@@ -113,6 +113,7 @@ span {
   color: #203376;
   font-size: 22px;
   font-weight: 600;
+  padding-bottom: 45px;
 }
 .button_block {
   padding-top: 35px;
@@ -130,11 +131,14 @@ span {
   outline: none;
   cursor: pointer;
 }
+.button_block {
+  padding-top: 0;
+}
 .chanse_button:hover {
   color: gold;
 }
 
-/* confirence */
+/* confirence (shared)*/
 
 .conference {
   margin-top: 50px;
@@ -186,4 +190,14 @@ font-size: 22px;
 line-height: 146.48%;
 text-align: center;
 color: #203376;
+}
+
+/* conference future_block */
+
+/* event join (shared) */
+
+.event_join {
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 146.48%;
 }
